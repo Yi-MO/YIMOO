@@ -14,8 +14,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 OUTPUT_DIR = "output"  # Output directory
 ELASTICSEARCH_URL = "https://sr-cnvelk01.ftmcn.cn:9200"  # Elasticsearch address
 INDEX = "fmlogs*"                                         # Log index name
-USERNAME = "fmdev"                                       # Username
-PASSWORD = "dev_fm_2020"                                 # Password
+USERNAME = "fmsupport"                                       # Username
+PASSWORD = "futur_master_2020"                                 # Password
 LOG_FILE_JSON = os.path.join(OUTPUT_DIR, "micro_service_dolap_logs.json")  # Raw log output file (JSON)
 LOG_FILE_CSV = os.path.join(OUTPUT_DIR, "micro_service_dolap_logs.csv")    # Parsed log output file (CSV)
 
